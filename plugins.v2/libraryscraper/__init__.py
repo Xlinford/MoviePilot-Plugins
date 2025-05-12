@@ -539,8 +539,7 @@ class LibraryScraperLin(_PluginBase):
         # 获取插件数据
         data = self._plugindata.get_data(plugin_id="LibraryScraperLin", key="unscrapfiles")
         logger.info(f"获取到未识别的媒体数据：{data}")
-        # import ipdb
-        # ipdb.set_trace()
+
         if not data:
             elements = [
                 {

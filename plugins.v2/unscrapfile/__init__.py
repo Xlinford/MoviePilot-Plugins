@@ -230,8 +230,7 @@ class UnscrapFile(_PluginBase):
         """
         削刮一个目录，该目录必须是媒体文件目录
         """
-        # import ipdb
-        # ipdb.set_trace()
+
         if tmdbid and tmdbid!="0":
             # 按TMDBID识别
             logger.info(f"读取到传入的tmdbid：{tmdbid}")
